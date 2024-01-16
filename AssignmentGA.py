@@ -11,15 +11,6 @@ import cProfile
 from numba import jit
 
 
-# References:
-#https://stackoverflow.com/questions/16310015/what-does-this-mean-key-lambda-x-x1  used in tournement selection to get the best fitness value as my key to the dictionary is in tuples (identifier, fitness)
-# used to sort dictionary and pick elites https://stackoverflow.com/questions/45738414/how-to-install-collections-in-python-3-6 , https://stackoverflow.com/questions/12988351/split-a-dictionary-in-half
-# random key value pair from dictionary https://stackoverflow.com/questions/4859292/how-can-i-get-a-random-key-value-pair-from-a-dictionary
-# max element of a index of a tuple https://stackoverflow.com/questions/14209062/find-max-of-the-2nd-element-in-a-tuple-python
-# learning numba and how to use it to make code faster https://www.youtube.com/watch?v=x58W9A2lnQc&t=445s
-# learning numpy vectorization to make code run faster by removing loops https://www.youtube.com/watch?v=lPPnGYjCSHY
-
-
 def main():
 
     pygame.init()
